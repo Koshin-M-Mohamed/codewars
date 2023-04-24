@@ -1,0 +1,8 @@
+function positiveSum(arr){
+  return arr.filter(item =>{
+    if (item > 0){
+      return item
+    }
+    
+  }).reduce((f,g) => f + g, 0)
+}
