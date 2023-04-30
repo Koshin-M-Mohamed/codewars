@@ -10,6 +10,7 @@
 // patrick feeney => P.F
 
 function abbrevName(name){
+<<<<<<< HEAD
 // name array splits the array in two words (the first and last names)
   let nameArr = name.split(" "); 
 // Then this grabs the first word in the array and then grabs the first letter of that word
@@ -18,3 +19,14 @@ function abbrevName(name){
   let lastInitial = nameArr[1][0];
   return `${firstInitial.toUpperCase()}.${lastInitial.toUpperCase()}`;
 }
+=======
+    // name array splits the array in two words (the first and last names)
+      let nameArr = name.split(" "); 
+    // Then this grabs the first word in the array and then grabs the first letter of that word
+      let firstInitial = nameArr[0][0]; 
+    // this variable grabs the second word in that array and the first letter of that word
+      let lastInitial = nameArr[1][0];
+      return `${firstInitial.toUpperCase()}.${lastInitial.toUpperCase()}`;
+    }
+    
+>>>>>>> 1def710df8cc87b1cde7082fb902fa76f261a801
